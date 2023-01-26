@@ -1,5 +1,5 @@
 {
-
+  "homepage": "http://mahaveer18.github.io/veer-solutions",
   "name": "one",
 
   "version": "0.1.0",
@@ -39,7 +39,8 @@
   "scripts": {
 
     "start": "react-scripts start",
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
 
     "test": "react-scripts test",
